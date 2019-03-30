@@ -1,3 +1,20 @@
+## TODO:
+```
+  const broadcast = Broadcasting(subscribers, keysEnum);
+  
+  broadcast('KEY').send();
+
+  broadcast('KEY').send(data);
+  
+  broadcast('ANY:Test').send(data);
+  
+  broadcast('ANY','Test').send(data);
+  
+  const myKey = ['ANY','Test'];
+  
+  broadcast(...myKey).send(data);
+```
+
 ## Using in GAS
 ```
    /**

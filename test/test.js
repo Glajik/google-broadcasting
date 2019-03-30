@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import * as sinon from 'sinon';
 
 // import function
-import { createBroadcast, composeKey } from '../src/broadcasting';
+import { createBroadcast, composeKey } from '../src/Broadcasting';
 
 describe('Test broadcasting', () => {
   /**

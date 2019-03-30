@@ -1,9 +1,9 @@
 {
-  "name": "@airbag/broadcasting",
+  "name": "@glajik/broadcasting",
   "version": "1.0.0",
   "private": true,
   "description": "Provide broadcasting",
-  "main": "dist/main.js",
+  "main": "src/Broadcasting.js",
   "scripts": {
     "lint": "eslint src test --fix",
     "test": "mocha --require @babel/register",
